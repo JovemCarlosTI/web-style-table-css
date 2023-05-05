@@ -1,0 +1,19 @@
+/* Instrução 1, 2 e 3 */
+table {
+    background-color: rgb(240, 248, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    text-align: center;
+    width: 20%;
+}
+
+/* Instrução 4 */
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/* Instrução 5 */
+tr:has(th), tr:hover:has(td) {
+    background-color: rgb(168, 218, 213);
+}

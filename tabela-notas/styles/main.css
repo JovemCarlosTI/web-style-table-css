@@ -1,0 +1,26 @@
+/* Instrução 1, 2, 3 e 4 */
+table {
+    border-collapse: collapse;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    min-width: 300px;
+    width: 50%;
+}
+
+/* Instrução 1 */
+table tr td:first-child {
+    text-align: left;
+}
+
+/* Instrução 5 */
+th, td {
+    padding: 5px;
+}
+
+/* Instrução 6 */
+tbody tr:nth-child(2n+1) {
+    background-color: rgb(240, 248, 255);
+}
